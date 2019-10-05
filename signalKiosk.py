@@ -1,6 +1,8 @@
 
 #!/usr/bin/env python
 #
+#   Adapted from boatimu.py as prototype
+
 #   Copyright (C) 2019 Sean D'Epagnier
 #
 # This Program is free software; you can redistribute it and/or
