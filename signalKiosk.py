@@ -131,41 +131,6 @@ def getCMDIndex(cmdtmp):
 		return index
 
 
-def RunCmdListener ():
-	#Start CommandServer()
-	## Create a TCP/IP socket
-	sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
-	## Bind the socket to the port
-	server_address = (CMDServer, CMDPort)
-	print >>sys.stderr, 'Starting Command Server Listener on %s port %s' % server_address
-	sock.bind(server_address)
-
-	## Listen for incoming connections
-	sock.listen(1)
-	#print "Command Server Listening"
-
-	while True:
-		## Wait for a connection
-		print >>sys.stderr, 'Waiting for a connection'
-		connection, client_address = sock.accept()
-		
-		ShowTime()
-		
-		try:
-			while True:
-				data = connection.recv(16)
-				print >>sys.stderr, 'Received Display Command:  "%s"' % data
-				ShowTime() #BRIEFLY
-				#print "BEEP, BEEP"
-				#break
-
-		finally:
-			## Clean up the connection
-			connection.close()
-			return
-
-
 		
 def UpdateDisplay():
 	segment.clear()
@@ -435,7 +400,7 @@ def cmd_process(cmd_pipe):
 			## Clean up the connection
 			connection.close()
 			#return
-			break
+			#break
 
 
 
