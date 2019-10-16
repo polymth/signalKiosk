@@ -1,0 +1,14 @@
+#Commands transmitted into tcp-command host/port=88888
+
+Set SignalK server host: SETSKHOST = "10.10.10.1"
+
+Set SignalK server port: SETSKPORT = "20311"
+
+Set SignalK display brightness: BRIGHT = "1-15"
+
+Set SignalK refresh rate in seconds:  DISPREFRESH = "0.5,1.0,2.0"
+
+Set SignalK telemetry label OFF/ON: TELEMLABEL = "ON"
+
+Set SignalK telemetry label appearance rate: LABELRATE = "integer-seconds" i.e., 10 seconds, 15 sec, 30sec.
+
