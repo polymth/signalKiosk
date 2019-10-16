@@ -1,6 +1,6 @@
 #Commands transmitted into tcp-command host/port=88888
 
-Set SignalK server host: SETSKHOST = "10.10.10.1"
+Set SignalK server host: SETSKHOST = "10.10.10.1"   (this is where telemtry is retreived for display)
 
 Set SignalK server port: SETSKPORT = "20311"
 
