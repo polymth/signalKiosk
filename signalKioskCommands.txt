@@ -5,11 +5,11 @@ Set SignalK server host: SETSKHOST = "10.10.10.1"   (this is where telemtry is r
 
 Set SignalK server port: SETSKPORT = "20311"
 
-Set SignalK display brightness: BRIGHT = "1-15"
+Set SignalKiosk display brightness: BRIGHT = "1-15"
 
-Set SignalK refresh rate in seconds:  DISPREFRESH = "0.5,1.0,2.0"
+Set SignalKiosk refresh rate in seconds:  DISPREFRESH = "0.5,1.0,2.0"
 
-Set SignalK telemetry label OFF/ON: TELEMLABEL = "ON"
+Set SignalKiosk telemetry label OFF/ON: TELEMLABEL = "ON"
 
-Set SignalK telemetry label appearance rate: LABELRATE = "integer-seconds" i.e., 10 seconds, 15 sec, 30sec.
+Set SignalKiosk telemetry label appearance rate: LABELRATE = "integer-seconds" i.e., 10 seconds, 15 sec, 30sec.
 
