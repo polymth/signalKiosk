@@ -1,9 +1,9 @@
 
 #Commands transmitted into tcp-command host/port=88888
 
-Set SignalK server host: SETSKHOST = "10.10.10.1"   (this is where telemtry is retreived for display)
+Set SignalK server host: SIGNALKHOST = "10.10.10.1"   (this is where telemtry is retreived for display)
 
-Set SignalK server port: SETSKPORT = "20311"
+Set SignalK server port: SIGNALKPORT = "20311"
 
 Set SignalKiosk display brightness: BRIGHT = "1-15"
 
