@@ -22,7 +22,7 @@
 # TelemLabelOccurSec=0 means no labels, CountDownTimerMode, etc.
 
 #signalKiosk.py will monitor a push-button-switch that will, in-sequence, advance the
-#selection of telemetry defined in the tele_list variable/imported-file
+#selection of telemetry defined in tele_list variable/imported-file
 
 ########################################################################################
 
