@@ -508,6 +508,11 @@ def main():
 	displabel = Process(target=labelMgr, args=(lstatus,))
 	displabel.start()
 	
+	(nodename,tlmtry) = Pipe(False)
+	sigkval = Process(target=GetSignalkValue, args=(tlmtry,))
+	#sigkval.start()
+	
+	
 	#DISPLAYCMD		= 'ALL'
 	DISPLAYCMD		= 'HDG'
 	
