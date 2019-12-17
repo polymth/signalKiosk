@@ -6,10 +6,6 @@
 
 # SIGNALKIOSK-README follows:
 
-# signalKiosk.py is meant to run on tinypilot-OS
-
-# signalKiosk.py should execute independently, or/with pypilot(for now) on tinypilot
-
 # signalKiosk.py will query a signalK-Server for telemetry(like):, wind, depth, speed, etc.
 # and display those telemetry (preceeded by labelling mnemonic every-10-displays/sec.
 # Example: HDG,pause,150.6,pause,150.6,pause...7sec elapse...150.6,pause, HDG,pause,150.6,pause......)
@@ -48,7 +44,7 @@ global tlm
 global skval
 global skstring
 
-DISPLAYCMD		= 'ALL'
+DISPLAYCMD	= 'ALL'
 
 DISPLAYLABEL	= 0
 LABELINTERVAL	= 5000 #15000 milliseconds = 15 seconds
