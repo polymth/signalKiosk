@@ -1,0 +1,2 @@
+Cant integrate the use of getSigKcommand
+Misuse of pipe in get SigKcommand; i think
