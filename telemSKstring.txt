@@ -1,0 +1,6 @@
+HDG,ap.heading
+CMD,ap.heading_command
+HEEL,imu.roll
+PITCH,imu.pitch
+DPT,environment.water.depthSurface
+
